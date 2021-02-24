@@ -9,33 +9,33 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DotGothic16&family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <div class="bloque_encabezado">
+<header>
+    <div style="background-color: rgba(255, 218, 0, 1);">
+        <div class="inline">
             <img id="user" src="user.png"/>
+        </div>
+        <div class="inline" style="width: 70%; padding-left: 20px;">
             <h3 id="matricula">MATRICULA</h3>
-            <h2 id="nombre_completo">NOMBRE COMPLETO</h2>
+            <p id="nombre_completo">NOMBRE COMPLETO</p>
         </div>
-        <div class="bloque_encabezado">
-            <input id="busqueda" type="search" placeholder="Buscar">
-        </div>
-        <div class="bloque_encabezado">
+        <div class="inline" style="height: 80px; padding-top: 50px;">
+            <input id="busqueda" type="search" placeholder="Buscar" style="border-radius: 10px; margin-right: 10px;">
             <button id="salir" type="button">SALIR</button>
         </div>
-    </header>
-    <div id="barra">
-        <p>ITEM 1</p>
-        <p>ITEM 2</p>
-        <p>ITEM 3</p>
-        <p>ITEM 4</p>
-        <p>ITEM 5</p>
-        <p>ITEM 6</p>
-        <p>ITEM 7</p>
     </div>
-
-    
-
-    <div id="contenido">
+    <div id="barra">
+        <a id="item">ITEM 1</a>
+        <a id="item">ITEM 2</a>
+        <a id="item">ITEM 3</a>
+        <a id="item">ITEM 4</a>
+        <a id="item">ITEM 5</a>
+        <a id="item">ITEM 6</a>
+        <a id="item">ITEM 7</a>
+    </div>
+</header>
+<body>
+<div>
+    <div class="inline">
         <section id="segmentoA">
             <div class="promociones">
                 <h3 id="titulo"> PROMOCIONES</h3>
@@ -45,7 +45,6 @@
                     <li>Lorem ipsum</li>
                 </ul>
             </div>
-    
             <div class="mas_vendidos">
                 <h3 id="titulo"> MÁS VENDIDOS</h3>
                 <ol> <!-- lista ordenada -->
@@ -71,173 +70,178 @@
                     </ul>
                 </ol>
         </section>
-        
-        <section id="segmentoB">
-            <section class="caja" id="caja1">
-                <img src="IMAGEN 200X200a.png"/>
-                <article>
-                    <h3>Producto A</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum ex vel consequat malesuada. Mauris iaculis tempus ipsum, vitae lobortis quam pretium vehicula.</p>
-                </article>
-                <div>
-                    <div class="pie_caja">
-                        <div class="redes_sociales">
-                            <img src="icono color linkedin.png"/>
-                            <img src="icono color facebook.png"/>
-                            <img src="icono color twitter.png"/>
+    </div>
+    <div class="inline" style="width: 70%; padding-left: 20px;">
+        <div >
+            <section id="segmentoB" class="inline">
+                <section class="caja" id="caja1">
+                    <img src="IMAGEN 200X200a.png"/>
+                    <article>
+                        <h3>Producto A</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum ex vel consequat malesuada. Mauris iaculis tempus ipsum, vitae lobortis quam pretium vehicula.</p>
+                    </article>
+                    <div>
+                        <div class="pie_caja">
+                            <div class="redes_sociales">
+                                <img src="icono color linkedin.png"/>
+                                <img src="icono color facebook.png"/>
+                                <img src="icono color twitter.png"/>
+                            </div>
+                            <div class="estrellas">
+                                <img src="star.png"/>
+                                <img src="star.png"/>
+                                <img src="star.png"/>
+                                <img src="star.png"/>
+                                <img src="star.png"/>
+                            </div>
+                            <p class="comentarios">20 comentarios</p>
                         </div>
-                        <div class="estrellas">
-                            <img src="star.png"/>
-                            <img src="star.png"/>
-                            <img src="star.png"/>
-                            <img src="star.png"/>
-                            <img src="star.png"/>
+                        <div class="pie_caja">
+                            <input type="button" value="Conectar">
                         </div>
-                        <p class="comentarios">20 comentarios</p>
                     </div>
-                    <div class="pie_caja">
-                        <input type="button" value="Conectar">
-                    </div>
-                </div>
-            </section><!--fin de caja1-->
-        </section>
-
-        <section id="segmentoC">
-            <section class="caja" id="caja2">
-                <img src="IMAGEN 200X200a.png"/>
-                <article>
-                    <h3>Producto B</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum ex vel consequat malesuada. Mauris iaculis tempus ipsum, vitae lobortis quam pretium vehicula.</p>
-                </article>
-                <div>
-                    <div class="pie_caja">
-                        <div class="redes_sociales">
-                            <img src="icono color linkedin.png"/>
-                            <img src="icono color facebook.png"/>
-                            <img src="icono color twitter.png"/>
+                </section><!--fin de caja1-->
+            </section>
+    
+            <section id="segmentoC" class="inline">
+                <section class="caja" id="caja2">
+                    <img src="IMAGEN 200X200a.png"/>
+                    <article>
+                        <h3>Producto B</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum ex vel consequat malesuada. Mauris iaculis tempus ipsum, vitae lobortis quam pretium vehicula.</p>
+                    </article>
+                    <div>
+                        <div class="pie_caja">
+                            <div class="redes_sociales">
+                                <img src="icono color linkedin.png"/>
+                                <img src="icono color facebook.png"/>
+                                <img src="icono color twitter.png"/>
+                            </div>
+                            <div class="estrellas">
+                                <img src="star.png"/>
+                                <img src="star.png"/>
+                                <img src="star.png"/>
+                                <img src="star.png"/>
+                                <img src="star.png"/>
+                            </div>
+                            <p class="comentarios">20 comentarios</p>
                         </div>
-                        <div class="estrellas">
-                            <img src="star.png"/>
-                            <img src="star.png"/>
-                            <img src="star.png"/>
-                            <img src="star.png"/>
-                            <img src="star.png"/>
+                        <div class="pie_caja">
+                            <input type="button" value="Conectar">
                         </div>
-                        <p class="comentarios">20 comentarios</p>
                     </div>
-                    <div class="pie_caja">
-                        <input type="button" value="Conectar">
-                    </div>
-                </div>
-            </section><!--fin de caja2-->
-        </section>
-
-
-        <section id="segmentoD">
-            <section class="caja" id="caja3">
-                <img src="IMAGEN 200X200a.png"/>
-                <article>
-                    <h3>Producto C</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum ex vel consequat malesuada. Mauris iaculis tempus ipsum, vitae lobortis quam pretium vehicula.</p>
-                </article>
-                <div>
-                    <div class="pie_caja">
-                        <div class="redes_sociales">
-                            <img src="icono color linkedin.png"/>
-                            <img src="icono color facebook.png"/>
-                            <img src="icono color twitter.png"/>
+                </section><!--fin de caja2-->
+            </section>
+    
+    
+            <section id="segmentoD" class="inline">
+                <section class="caja" id="caja3">
+                    <img src="IMAGEN 200X200a.png"/>
+                    <article>
+                        <h3>Producto C</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum ex vel consequat malesuada. Mauris iaculis tempus ipsum, vitae lobortis quam pretium vehicula.</p>
+                    </article>
+                    <div>
+                        <div class="pie_caja">
+                            <div class="redes_sociales">
+                                <img src="icono color linkedin.png"/>
+                                <img src="icono color facebook.png"/>
+                                <img src="icono color twitter.png"/>
+                            </div>
+                            <div class="estrellas">
+                                <img src="star.png"/>
+                                <img src="star.png"/>
+                                <img src="star.png"/>
+                                <img src="star.png"/>
+                                <img src="star.png"/>
+                            </div>
+                            <p class="comentarios">20 comentarios</p>
                         </div>
-                        <div class="estrellas">
-                            <img src="star.png"/>
-                            <img src="star.png"/>
-                            <img src="star.png"/>
-                            <img src="star.png"/>
-                            <img src="star.png"/>
+                        <div class="pie_caja">
+                            <input type="button" value="Conectar">
                         </div>
-                        <p class="comentarios">20 comentarios</p>
                     </div>
-                    <div class="pie_caja">
-                        <input type="button" value="Conectar">
-                    </div>
-                </div>
-            </section><!--fin de caja3-->
-        </section>
-
-        <section id="segmentoE">
-            <section class="caja" id="caja4">
-                <img src="IMAGEN 200X200a.png"/>
-                <article>
-                    <h3>Producto D</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum ex vel consequat malesuada. Mauris iaculis tempus ipsum, vitae lobortis quam pretium vehicula.</p>
-                </article>
-                <div>
-                    <div class="pie_caja">
-                        <div class="redes_sociales">
-                            <img src="icono color linkedin.png"/>
-                            <img src="icono color facebook.png"/>
-                            <img src="icono color twitter.png"/>
-                        </div>
-                        <div class="estrellas">
-                            <img src="star.png"/>
-                            <img src="star.png"/>
-                            <img src="star.png"/>
-                            <img src="star.png"/>
-                            <img src="star.png"/>
-                        </div>
-                        <p class="comentarios">20 comentarios</p>
-                    </div>
-                    <div class="pie_caja">
-                        <input type="button" value="Conectar">
-                    </div>
-                </div>
-            </section><!--fin de caja4-->
-        </section>
-
-
-        <section id="segmentoF">
-            <section class="caja" id="caja5">
-                <img src="IMAGEN 200X200a.png"/>
-                <article>
-                    <h3>Producto E</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum ex vel consequat malesuada. Mauris iaculis tempus ipsum, vitae lobortis quam pretium vehicula.</p>
-                </article>
-                <div>
-                    <div class="pie_caja">
-                        <div class="redes_sociales">
-                            <img src="icono color linkedin.png"/>
-                            <img src="icono color facebook.png"/>
-                            <img src="icono color twitter.png"/>
-                        </div>
-                        <div class="estrellas">
-                            <img src="star.png"/>
-                            <img src="star.png"/>
-                            <img src="star.png"/>
-                            <img src="star.png"/>
-                            <img src="star.png"/>
-                        </div>
-                        <p class="comentarios">20 comentarios</p>
-                    </div>
-                    <div class="pie_caja">
-                        <input type="button" value="Conectar">
-                    </div>
-                </div>
-            </section><!--fin de caja5-->
-        </section>
-
-        <footer>
-            <div class="redes_sociales_pie">
-                <img src="icono color linkedin.png"/>
-                <img src="icono color facebook.png"/>
-                <img src="icono color twitter.png"/>
+                </section><!--fin de caja3-->
+            </section>
+    
             </div>
-            <article>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum ex vel consequat malesuada. Mauris iaculis tempus ipsum, vitae lobortis quam pretium vehicula. Aliquam at diam eu massa congue laoreet nec nec felis. Cras aliquet, nisi in dignissim ultrices, sapien est tempor ligula, a mollis ipsum elit id lectus.</p>
-            </article>
-            <div class="pie_footer">
-                <input id="correo" type="email" placeholder="correo@dominio.com">
-                <button id="suscribir" type="button">SUSCRIBIR</button>
+            <div>
+                <section id="segmentoE" class="inline">
+                    <section class="caja" id="caja4">
+                        <img src="IMAGEN 200X200a.png"/>
+                        <article>
+                            <h3>Producto D</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum ex vel consequat malesuada. Mauris iaculis tempus ipsum, vitae lobortis quam pretium vehicula.</p>
+                        </article>
+                        <div>
+                            <div class="pie_caja">
+                                <div class="redes_sociales">
+                                    <img src="icono color linkedin.png"/>
+                                    <img src="icono color facebook.png"/>
+                                    <img src="icono color twitter.png"/>
+                                </div>
+                                <div class="estrellas">
+                                    <img src="star.png"/>
+                                    <img src="star.png"/>
+                                    <img src="star.png"/>
+                                    <img src="star.png"/>
+                                    <img src="star.png"/>
+                                </div>
+                                <p class="comentarios">20 comentarios</p>
+                            </div>
+                            <div class="pie_caja">
+                                <input type="button" value="Conectar">
+                            </div>
+                        </div>
+                    </section><!--fin de caja4-->
+                </section>
+                <section id="segmentoF" class="inline">
+                    <section class="caja" id="caja5">
+                        <img src="IMAGEN 200X200a.png"/>
+                        <article>
+                            <h3>Producto E</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum ex vel consequat malesuada. Mauris iaculis tempus ipsum, vitae lobortis quam pretium vehicula.</p>
+                        </article>
+                        <div>
+                            <div class="pie_caja">
+                                <div class="redes_sociales">
+                                    <img src="icono color linkedin.png"/>
+                                    <img src="icono color facebook.png"/>
+                                    <img src="icono color twitter.png"/>
+                                </div>
+                                <div class="estrellas">
+                                    <img src="star.png"/>
+                                    <img src="star.png"/>
+                                    <img src="star.png"/>
+                                    <img src="star.png"/>
+                                    <img src="star.png"/>
+                                </div>
+                                <p class="comentarios">20 comentarios</p>
+                            </div>
+                            <div class="pie_caja">
+                                <input type="button" value="Conectar">
+                            </div>
+                        </div>
+                    </section><!--fin de caja5-->
+                </section>
             </div>
-        </footer>
-            
+    </div>  
+</div> 
 </body>
+<footer>
+    <div class="footer">
+        <div class="redes_sociales_pie">
+            <img class="img_redes" src="icono color linkedin.png"/>
+            <img class="img_redes" src="icono color facebook.png"/>
+            <img class="img_redes" src="icono color twitter.png"/>
+        </div>
+        <article>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum ex vel consequat malesuada. Mauris iaculis tempus ipsum, vitae lobortis quam pretium vehicula. Aliquam at diam eu massa congue laoreet nec nec felis. Cras aliquet, nisi in dignissim ultrices, sapien est tempor ligula, a mollis ipsum elit id lectus.</p>
+        </article>
+        <div class="pie_footer">
+            <input id="correo" type="email" placeholder="correo@dominio.com">
+            <button id="suscribir" type="button">SUSCRIBIR</button>
+        </div>
+      </div>
+    </footer>
 </html>

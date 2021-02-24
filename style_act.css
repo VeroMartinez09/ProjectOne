@@ -5,21 +5,44 @@ body{
 
 .bloque_encabezado{
     width:20%;
-    display: inline-block;
+    
+}
+
+.encabezado{
+    display: inline;
+    width:100%;
+    text-align:center;
+    background-color: yellow
+}
+div.inline{ 
+    float:left; 
+}
+
+div.inline_vertical{
+    display: inline 
+}
+
+#contenido{
+    background-color: white;
+}
+
+section.inline{
+    display: inline;
 }
 
 #user{
     width: 80px;
     height: 80px;
+    margin: 20px 10px 10px 20px;
+}
+#nombre_completo{
+    font-style: initial;
+    font-size: 30px;
 }
 
 
 #matricula{
-    color:orange
-}
-
-#nombre_completo{
-    display: inline-block;
+    color:orange;
 }
 
 #salir{
@@ -42,22 +65,33 @@ header{
     margin-bottom: 10px;
     border: 1px;
     text-align:center;
+    color: white;
+    height: 50px;
+    font-size: 18px;
+    padding-top: 25px;
+}
+
+#item{
+    margin-inline: 10px;
+    border-left: white;
+    border: white;
 }
 
 .promociones{
     text-align:left;
-    width:20%;
+    width:300px;
     background: #f4f4f4;
     border: 1px solid #000;
     box-shadow: 2px 2px 2px #808080;
-    display: inline-block;
     box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
 .mas_vendidos{
     text-align:left;
-    width:20%;
+    width:100%;
     background: #f4f4f4;
     border: 1px solid #000;
     box-shadow: 2px 2px 2px #808080;
@@ -68,15 +102,15 @@ header{
 #titulo{
     text-align:center;
     color:white;
-    width:100%;
-    background: orange; /*color de fondo*/
+    width:93%;
+    background: rgba(255, 73, 0, 1); /*color de fondo*/
     padding: 10px;
 }
 
 
 .caja{
     text-align:center;
-    width:25%;
+    width:30%;
     margin:0 auto;
     background: #f4f4f4;
     border: 1px solid #000;
@@ -84,6 +118,8 @@ header{
     display: inline-block;
     box-sizing: border-box;
     padding: 5px 10px;
+    margin-inline: 10px;
+    margin-block: 20px;
 }
 
 .caja img{
@@ -112,36 +148,49 @@ header{
 .pie_caja{
     display: inline-block;
 }
-
+ /*
 footer{
     background:yellow ;
     width:100%;
     text-align: center;
-    display: inline-block;
-}
+} */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(240, 175, 0, 1);
+    color: white;
+    text-align: center;
+  }
 
 .pie_footer{
     display:inline-block;
     width:100%;
-    margin-bottom: 10px;
-    background: blue; /*color de fondo*/
+    background: rgba(9, 59, 182, 1); /*color de fondo*/
     border: 1px;
+    padding-top: 10px;
 }
 
 #correo{
     display:inline-block;
+    border-radius: 10px;
+    margin-inline: 20px;
 }
 
 #suscribir{
     display:inline-block;
     margin-bottom: 10px;
-    background: orange; /*color de fondo*/
+    background: rgba(255, 76, 0, 1); /*color de fondo*/
     color:white; /*color de texto*/
     padding: 7px 30px;
     border: 1px;
 }
+.img_redes{
+    margin-inline: 10px;
+}
 
 .redes_sociales_pie{
-    display:inline-block;
-    width: 50px;
+    margin-top: 20px;
 }
