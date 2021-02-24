@@ -1,0 +1,45 @@
+p{
+    color: #f00;
+    font-weight: bold;
+    text-align: center;
+}
+
+#parrafo1{
+    background: #f2f2f2;
+    padding:10px;
+}
+
+#avatar2{
+    background: #f00;
+    border: 5px solid #00f;
+    margin: 10px 5px;
+    padding: 15px;
+}
+
+#botones1{
+    margin-bottom: 10px;
+}
+
+.contenedor-botones{
+    text-align: center;
+}
+
+button{
+    background: #07C3BE; /*color de fondo*/
+    color: #fff; /*color de texto*/
+    /* width: 200px;
+    height: 50px; */
+    padding: 10px 15px;
+    border: 1px solid #808080;
+}
+
+.rectangulo{
+    box-sizing: border-box;
+    width:30%;
+    display: inline-block;
+    vertical-align: top;
+    border:2px solid #000;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #808080;
+}

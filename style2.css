@@ -1,0 +1,160 @@
+body{
+    font-family: Roboto;
+}
+
+h3{
+    font-family: 'Bebas Neue';
+}
+
+.bloque_encabezado{
+    width:33%;
+    display: inline-block;
+}
+
+#logo{
+    width:50px;
+    height: 50px;
+}
+
+#nombre_empresa{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header{
+    background: #808080;
+    border-bottom: 2px solid #000;
+}
+
+#contenido{
+    text-align: center;
+    width:80%;
+    margin:0 auto;
+    /* background: #f00; */
+}
+
+.caja{
+    background: #f4f4f4;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 2px #808080;
+    display: inline-block;
+    width:30%;
+    box-sizing: border-box;
+    padding: 5px 10px;
+}
+
+.caja:hover{
+    background:coral;
+}
+
+.caja h3,
+.caja p{
+    text-align: left;
+}
+
+.caja img{
+    width:100%;
+}
+
+.redes_sociales img{
+    width: 20px;
+}
+
+.estrellas img{
+    width:10px;
+}
+
+.comentarios{
+    font-size:0.7em;
+}
+
+.pie_caja{
+    display: inline-block;
+    
+}
+
+footer{
+    background: #808080;
+    border-top: 2px solid #000;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+@media only screen and (max-width: 600px){
+    .caja{
+        width:95%;
+    }
+
+    #contenido{
+        width:100%;
+        /* background: #00f; */
+    }
+
+    .bloque_encabezado{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .caja{
+        width:25%!important;
+    }
+
+    #contenido{
+        /* background: #ff0; */
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .caja{
+        width:25%;
+    }
+
+    #contenido{
+        /* background: #0f0; */
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .caja{
+        width:33%;
+    }
+
+}
+
+
+td{
+    border:1px solid #000;
+}
+
+table{
+    border:1px solid #f00;
+}
+
+tr:nth-child(odd){
+    background: #808080;
+}
+
+tr:hover{
+    background: #00f;
+    color:#fff;
+    font-weight: 100;
+}
+
+.tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
+.tg td{background-color:#fdf6e3;border-color:#93a1a1;border-style:solid;border-width:1px;color:#002b36;
+    font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#657b83;border-color:#93a1a1;border-style:solid;border-width:1px;color:#fdf6e3;
+    font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+
+#busqueda{
+    border-radius: 10px;
+}

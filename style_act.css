@@ -1,0 +1,147 @@
+body{
+    font-family: Roboto;
+}
+
+
+.bloque_encabezado{
+    width:20%;
+    display: inline-block;
+}
+
+#user{
+    width: 80px;
+    height: 80px;
+}
+
+
+#matricula{
+    color:orange
+}
+
+#nombre_completo{
+    display: inline-block;
+}
+
+#salir{
+    margin-bottom: 10px;
+    background:blue; /*color de fondo*/
+    color:white; /*color de texto*/
+    padding: 7px 30px;
+    border: 1px;
+}
+
+header{
+    background:yellow ;
+}
+
+
+#barra{
+    background:blue ;
+    display:inline-block;
+    width:100%;
+    margin-bottom: 10px;
+    border: 1px;
+    text-align:center;
+}
+
+.promociones{
+    text-align:left;
+    width:20%;
+    background: #f4f4f4;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 2px #808080;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
+.mas_vendidos{
+    text-align:left;
+    width:20%;
+    background: #f4f4f4;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 2px #808080;
+    box-sizing: border-box;
+    /*display:inline-block; alinear "a la par"*/
+}
+
+#titulo{
+    text-align:center;
+    color:white;
+    width:100%;
+    background: orange; /*color de fondo*/
+    padding: 10px;
+}
+
+
+.caja{
+    text-align:center;
+    width:25%;
+    margin:0 auto;
+    background: #f4f4f4;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 2px #808080;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 5px 10px;
+}
+
+.caja img{
+    width:80%;
+}
+
+.caja h3,
+.caja p{
+    text-align:left;
+    padding: 5px 20px;
+}
+
+.redes_sociales img{
+    width: 20px;
+}
+
+.estrellas img{
+    width:10px;
+}
+
+.comentarios{
+    font-size:0.7em;
+    display: inline-block;
+}
+
+.pie_caja{
+    display: inline-block;
+}
+
+footer{
+    background:yellow ;
+    width:100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.pie_footer{
+    display:inline-block;
+    width:100%;
+    margin-bottom: 10px;
+    background: blue; /*color de fondo*/
+    border: 1px;
+}
+
+#correo{
+    display:inline-block;
+}
+
+#suscribir{
+    display:inline-block;
+    margin-bottom: 10px;
+    background: orange; /*color de fondo*/
+    color:white; /*color de texto*/
+    padding: 7px 30px;
+    border: 1px;
+}
+
+.redes_sociales_pie{
+    display:inline-block;
+    width: 50px;
+}
